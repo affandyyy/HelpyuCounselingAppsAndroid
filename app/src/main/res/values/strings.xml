@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Helpyu</string>
+    <string name="greeting">How may I Helpyu ?</string>
+
+
+
+    <array name="genres">
+        <item name="workshop">Workshop</item>
+        <item name="talk">Talk</item>
+        <item name="open">Open Counseling</item>
+        <item name="others">Others</item>
+    </array>
+
+    <array name="apt_time">
+        <item name="default">Choose Time</item>
+        <item name="10am">10:00am</item>
+        <item name="11am">11:00am</item>
+        <item name="12pm">12:00pm</item>
+        <item name="2pm">2:00pm</item>
+        <item name="3pm">3:00pm</item>
+        <item name="4pm">4:00pm</item>
+        <item name="5pm">5:00pm</item>
+    </array>
+
+
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+</resources>

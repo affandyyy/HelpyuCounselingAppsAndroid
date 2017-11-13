@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/apthead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Appointment" />
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/stdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student's Name" />
+
+    <EditText
+        android:id="@+id/stdId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student's ID" />
+
+    <EditText
+        android:id="@+id/stdEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+// Date
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="setDate"
+        android:text="Choose Date" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView2"
+        android:text="@string/date_selected"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    //Date
+
+
+
+
+
+
+    <Spinner
+        android:id="@+id/spinnerApt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:entries="@array/apt_time"></Spinner>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/aptSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.affandyyy.testing.MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/back"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:text="@string/greeting"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:text="@string/greeting"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    // Start main menu section //
+
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        // Main menu left side
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/ChatStep"
+                android:background="@drawable/mainmenu1"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                />
+
+            <Button
+                android:id="@+id/Appointment"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mainmenu4"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                />
+        </LinearLayout>
+
+        //Main menu right side
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/VoiceOut"
+                android:background="@drawable/mainmenu2"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                />
+
+            <Button
+                android:id="@+id/Updates"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mainmenu3"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                />
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/AdminAccess"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/user"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

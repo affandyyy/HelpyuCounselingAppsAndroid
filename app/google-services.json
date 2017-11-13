@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "533010801936",
+    "firebase_url": "https://helpyu-204ae.firebaseio.com",
+    "project_id": "helpyu-204ae",
+    "storage_bucket": "helpyu-204ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533010801936:android:ca25690b6738232b",
+        "android_client_info": {
+          "package_name": "com.example.affandyyy.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533010801936-bnsic20vhdd233m1te91b53cuei4k5h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXQgKAXtrpEPtuG9Fhi4uQOPoOOmJFleE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
