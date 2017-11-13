@@ -5,7 +5,7 @@ students. The application is built as proper channel for them (students) to make
 and suggestion about the issue inside the university. Helpyu also provides the right channel
 for students to voice-out their personal problem direct to the counselor.
 
-![Alt text](/../HelpyuCounselingAppsAndroid/screenshot/a1.png "Optional Title")
+![Alt text](/../HelpyuCounselingAppsAndroid/screenshot/a1.png?raw=true "Optional Title")
 ![Alt text](/../<branch name>/path/to/image.png?raw=true "Optional Title")
 ![Alt text](/../<branch name>/path/to/image.png?raw=true "Optional Title")
 ![Alt text](/../<branch name>/path/to/image.png?raw=true "Optional Title")
