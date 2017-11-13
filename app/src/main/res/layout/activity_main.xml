@@ -79,13 +79,7 @@
                 android:layout_height="100dp"
                 />
 
-            <Button
-                android:id="@+id/Appointment"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/mainmenu4"
-                android:layout_width="130dp"
-                android:layout_height="100dp"
-                />
+
         </LinearLayout>
 
         //Main menu right side
