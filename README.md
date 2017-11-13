@@ -1,4 +1,4 @@
-# HelpyuCounselingAppsAndroid
+# Helpyu Android Counseling Apps
 
 Helpyu is an Android-based mobile application that specifically designed for UNITEN
 students. The application is built as proper channel for them (students) to make confession
